@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.learn.dyapp.calc_frag"
+    android:background="#f02" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/f_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_type"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f_title"
+        android:weightSum="4"
+        android:id="@+id/lay1"
+        android:layout_marginTop="25dp"
+
+        >
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/f_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/f_but1"
+            android:layout_weight="1"/>
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/f_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/f_but2"
+            android:layout_weight="1"/>
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/f_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/f_but3"
+            android:layout_weight="1"
+            android:background="#808080" />
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/f_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/f_but4"
+            android:layout_weight="1"
+            android:background="#808080"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
