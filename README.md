@@ -1,2 +1,2 @@
 # dyapp
-frag_store is the activity which should contain thye fragment
+frag_store is the activity which should contain the fragment
