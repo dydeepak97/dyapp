@@ -42,7 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp" />
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num2"
@@ -50,7 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num3"
@@ -58,7 +60,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_plus"
@@ -66,7 +69,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
 
 
     </LinearLayout>
@@ -77,7 +81,8 @@
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:weightSum="4"
-        android:layout_margin="0dp">
+        android:layout_margin="0dp"
+        >
 
         <Button
             style="?android:attr/buttonBarButtonStyle"
@@ -86,7 +91,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num5"
@@ -94,7 +100,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num6"
@@ -102,7 +109,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_sub"
@@ -110,7 +118,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
 
 
     </LinearLayout>
@@ -130,7 +139,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num8"
@@ -138,7 +148,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num9"
@@ -146,7 +157,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_mul"
@@ -154,7 +166,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
 
 
     </LinearLayout>
@@ -174,7 +187,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num0"
@@ -182,7 +196,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/equal"
@@ -190,7 +205,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_div"
@@ -198,7 +214,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            android:textSize="30sp"/>
 
 
     </LinearLayout>
