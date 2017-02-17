@@ -14,7 +14,8 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="25dp"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/white"    />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -24,8 +25,7 @@
         android:weightSum="4"
         android:id="@+id/lay1"
         android:layout_marginTop="25dp"
-
-        >
+            >
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/f_1"
@@ -33,7 +33,9 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="@string/f_but1"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"    />
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/f_2"
@@ -41,7 +43,9 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="@string/f_but2"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/f_3"

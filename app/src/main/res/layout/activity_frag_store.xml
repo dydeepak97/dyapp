@@ -38,7 +38,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num1"
-            android:text=""
+            android:text="@string/but_1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -46,7 +46,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num2"
-            android:text=""
+            android:text="@string/but_2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -54,7 +54,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num3"
-            android:text=""
+            android:text="@string/but_3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -62,7 +62,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_plus"
-            android:text=""
+            android:text="@string/but_plus"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -82,7 +82,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num4"
-            android:text=""
+            android:text="@string/but_4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -90,7 +90,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num5"
-            android:text=""
+            android:text="@string/but_5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -98,7 +98,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num6"
-            android:text=""
+            android:text="@string/but_6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -106,7 +106,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_sub"
-            android:text=""
+            android:text="@string/but_sub"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -126,7 +126,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num7"
-            android:text=""
+            android:text="@string/but_7"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -134,7 +134,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num8"
-            android:text=""
+            android:text="@string/but_8"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -142,7 +142,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num9"
-            android:text=""
+            android:text="@string/but_9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -150,7 +150,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_mul"
-            android:text=""
+            android:text="@string/but_mul"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -170,7 +170,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num_deci"
-            android:text=""
+            android:text="@string/but_deci"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -178,7 +178,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/num0"
-            android:text=""
+            android:text="@string/but_0"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -186,7 +186,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/equal"
-            android:text=""
+            android:text="@string/but_eq"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -194,7 +194,7 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:id="@+id/op_div"
-            android:text=""
+            android:text="@string/but_div"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
