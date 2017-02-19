@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class frag_store extends Activity {
@@ -277,21 +278,92 @@ public class frag_store extends Activity {
         beq.setOnClickListener(new View.OnClickListener()   {
 
             public void onClick(View v ){
-                String temp=(String) textVIewResult.getText();
-                if(temp.isEmpty()){
-                    s1="0";
+                String operator="";
+                if (s1.equals("+")||s1.equals("-")||s1.equals("*")||s1.equals("/")){
+                    i=0;
                 }
-                else if(!temp.equals("+")&&!temp.equals("-")&&!temp.equals("*")&&!temp.equals("/")){
-                    s1=temp;
+                else if(s1.isEmpty()){
+                    i=0;
                 }
-                c=4;
-                resultString="";
+                else{
+                    i=Integer.parseInt(s1);
+                }
 
-                textVIewResult.setText("/");
-                textViewInput.setText( s1 + "/");
+                if(resultString.isEmpty()){
+                    s2=(String) textVIewResult.getText();
+                    if (s2.equals("+")||s2.equals("-")||s2.equals("*")||s2.equals("/")){
+                        i1=0;
+                    }
+                    else if(s2.isEmpty()){
+                        i1=0;
+                    }
+                    else{
+                        i1=Integer.parseInt(s2);
+                    }
+                }
+
+                if(c==0){
+                    operator="+";
+                    result=i+i1;
+                }
+                else  if(c==1){
+                    operator="-";
+                    result=-i1;
+                }
+                else if(c==2){
+                    operator="*";
+                    result=i*i1;
+                }
+                else if(c==3){
+                    operator="/";
+                    if(i1==0) {
+                        Toast.makeText(getApplicationContext(), "Divide by Zero Error", Toast.LENGTH_LONG);
+                        result=0;
+                    }
+                    else{
+                        result=i/i1;
+                    }
+
+                }
+
+                //History Storage
+                if(!operator.isEmpty()){
+                    textViewInput.setText(i +" "+ operator +" " + i1);
+                }
+                else{
+                    textViewInput.setText("");
+                }
+                resultString=String.valueOf(result);
+                textVIewResult.setText(resultString);
+
+
             }
+
         });
 
+
+        bdel.setOnClickListener(new View.OnClickListener()   {
+
+            public void onClick(View v ){
+                s= (String) textVIewResult.getText();
+
+                if (s.equals("+")||s.equals("-")||s.equals("*")||s.equals("/")|| s.equals("")){
+                    textVIewResult.setText("");
+                }
+
+                else {
+                    i = Integer.parseInt(s);
+                    i /= 10;
+                }
+                if(i==0){
+                    textVIewResult.setText("");
+                }
+                else{
+                    textVIewResult.setText(i + "");
+                }
+                s=null;
+            }
+        });
 
 
 /*
