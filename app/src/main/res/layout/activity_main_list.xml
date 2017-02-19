@@ -16,16 +16,21 @@
             android:layout_height="wrap_content"
             android:text="@string/f_but_text"
             android:onClick="sendf"
+            android:layout_centerVertical="true"
+
+
 
 
 
         />
 
-    <ListView
-        android:id="@+id/mobile_list"
-        android:layout_below="@+id/f_button"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_above="@id/f_button"
+        android:text="@string/wel_msg"
+        android:textSize="55sp"
+        android:textAlignment="center"
+        android:paddingBottom="70dp"/>
 
-    </ListView>
 </RelativeLayout>

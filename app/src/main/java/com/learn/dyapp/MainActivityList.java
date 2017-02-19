@@ -25,8 +25,7 @@ public class MainActivityList extends Activity {
         ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.list_item,mobileArray);
 
         //Displaying
-        ListView listView= (ListView) findViewById(R.id.mobile_list);
-        listView.setAdapter(adapter);
+
 
 
 

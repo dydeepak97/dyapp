@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">dyapp</string>
-    <string name="f_but_text">To F Screen</string>
+    <string name="f_but_text">Open Calculator</string>
+    <string name="wel_msg">DY Calculator</string>>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="calc_type">Choose the Type of Calculator</string>

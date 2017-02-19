@@ -249,7 +249,7 @@ public class frag_store extends Activity {
                 else if(!temp.equals("+")&&!temp.equals("-")&&!temp.equals("*")&&!temp.equals("/")){
                     s1=temp;
                 }
-                c=3;
+                c=2;
                 resultString="";
 
                 textVIewResult.setText("*");
@@ -267,7 +267,7 @@ public class frag_store extends Activity {
                 else if(!temp.equals("+")&&!temp.equals("-")&&!temp.equals("*")&&!temp.equals("/")){
                     s1=temp;
                 }
-                c=4;
+                c=3;
                 resultString="";
 
                 textVIewResult.setText("/");
