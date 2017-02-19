@@ -202,8 +202,8 @@
 
         <Button
             style="?android:attr/buttonBarButtonStyle"
-            android:id="@+id/num_deci"
-            android:text="@string/but_deci"
+            android:id="@+id/del"
+            android:text="@string/but_del"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"

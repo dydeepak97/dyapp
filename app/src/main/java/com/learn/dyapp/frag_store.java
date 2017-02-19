@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class frag_store extends Activity {
 
-            Button b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,bplus,bsub,bmul,bdiv,bdeci,beq;
+            Button b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,bplus,bsub,bmul,bdiv,bdel,beq;
 
             TextView textViewInput,textVIewResult;
 
@@ -41,7 +41,7 @@ public class frag_store extends Activity {
         bsub=(Button) findViewById(R.id.op_sub);
         bmul=(Button) findViewById(R.id.op_mul);
         bdiv=(Button) findViewById(R.id.op_div);
-        bdeci=(Button) findViewById(R.id.num_deci);
+        bdel=(Button) findViewById(R.id.del);
         beq=(Button) findViewById(R.id.equal);
 
 
@@ -200,20 +200,7 @@ public class frag_store extends Activity {
             }
         });
 
-        bdeci.setOnClickListener(new View.OnClickListener()   {
 
-            public void onClick(View v ){
-                s=(String) textVIewResult.getText();
-                if(s.equals("+")||s.equals("-")||s.equals("*")||s.equals("/") )
-                {
-                    textVIewResult.setText("");
-                    s="";
-                }
-                textVIewResult.setText(s + ".");
-                s="";
-
-            }
-        });
 
         bplus.setOnClickListener(new View.OnClickListener()   {
 
@@ -226,10 +213,10 @@ public class frag_store extends Activity {
                     s1=temp;
                 }
                 c=0;
-                String test=(String) textViewInput.getText();
+
                 resultString="";
                 textVIewResult.setText("+");
-                textViewInput.setText(test +  s1+ "+");
+                textViewInput.setText(   s1+ "+");
             }
         });
 
@@ -245,8 +232,9 @@ public class frag_store extends Activity {
                 }
                 c=1;
                 resultString="";
+
                 textVIewResult.setText("-");
-                textViewInput.setText(s1+ "-");
+                textViewInput.setText( s1+ "-");
             }
         });
 
@@ -262,8 +250,9 @@ public class frag_store extends Activity {
                 }
                 c=3;
                 resultString="";
+
                 textVIewResult.setText("*");
-                textViewInput.setText(s1+ "*");
+                textViewInput.setText( s1+ "*");
             }
         });
 
@@ -279,12 +268,13 @@ public class frag_store extends Activity {
                 }
                 c=4;
                 resultString="";
+
                 textVIewResult.setText("/");
-                textViewInput.setText( s1 + "/");
+                textViewInput.setText(s1 + "/");
             }
         });
 
-        bdiv.setOnClickListener(new View.OnClickListener()   {
+        beq.setOnClickListener(new View.OnClickListener()   {
 
             public void onClick(View v ){
                 String temp=(String) textVIewResult.getText();
@@ -296,22 +286,11 @@ public class frag_store extends Activity {
                 }
                 c=4;
                 resultString="";
+
                 textVIewResult.setText("/");
                 textViewInput.setText( s1 + "/");
             }
         });
-
-        bdiv.setOnClickListener(new View.OnClickListener()   {
-
-            public void onClick(View v ){
-                String operator="";
-                if( s1.equals("+")||s1.equals("-")||s1.equals("*")||s1.equals("/")){
-                    
-                }
-
-            }
-        });
-
 
 
 
